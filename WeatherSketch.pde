@@ -12,6 +12,7 @@ void setup() {
   println(day1.weather);
   println(day2.weather);
   println(day3.weather);
+  println(day1.getTemperature());
   
 
   for (int row = 0; row < 10; row++) { //
@@ -52,4 +53,8 @@ void setup() {
       this.temperature = temperature;
       this.wind = wind;
     } 
+    //Return day's temperature
+    int getTemperature() {
+      return temperature;
+    }
   }
